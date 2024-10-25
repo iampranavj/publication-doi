@@ -1,19 +1,18 @@
-# 🎈 Blank app template
-
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+    ### Publication Parser & DOI Finder
+    
+    This tool helps you:
+    - Find DOIs for individual articles
+    - Process batch publication lists
+    - Extract structured data from publication text
+    - Download results in CSV format
+    
+    ### Data Format
+    For batch processing, format your publications as:
+    ```
+    YEAR - Authors. "Title". Venue/Journal. Additional Info
+    ```
+    
+    ### Note
+    - Not all publications have DOIs
+    - The tool uses strict matching to avoid incorrect DOIs
+    - Conference papers and some other formats might not have DOIs
